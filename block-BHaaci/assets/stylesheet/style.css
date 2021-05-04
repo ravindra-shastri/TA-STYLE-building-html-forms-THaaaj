@@ -1,0 +1,143 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* PAGE STYLE */
+*,
+*::before,
+*::after {
+    box-sizing:border-box;
+}
+.flex {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+body {
+	font-family :"open sans", sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+    /* color: #9b9b9b; */
+    background: url(../media/bg-intro-desktop.png),
+    linear-gradient(rgb(244,119,120),rgb(244,119,120));
+}
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 180px;
+    width: 100%;
+}
+.form-content {
+    max-width: 480px;
+    padding: 16px;
+    margin-top: 180px;
+    color: #fff; 
+}
+.form-content h1 {
+    font-size: 56px;
+    font-weight: 800;
+}
+fieldset {
+    margin-top: 160px;
+}
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding:16px;
+}
+.log-in-detail {
+    background-color: #fff;
+    padding: 48px 24px;
+    border-radius: 8px;
+}
+.legend {
+    font-size: 20px;
+    color: #272727;
+}
+legend p {
+    max-width: 480px;
+    font-size: 12px;
+    display: block;
+    width: 100%;
+    padding: 12px 64px;
+    border-radius: 6px;
+    margin-bottom: 24px;
+    color: #fff;
+    background-color: rgb(93,84,163); 
+}
+legend p .span {
+    font-size: 14px;
+    font-weight: 900;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 12px 12px;
+    border-radius: 6px;
+    margin: 16px 0;
+    border: 1px solid rgb(151, 148, 148);
+}
+button {
+    max-width: 480px;
+    display: block;
+    width: 100%;
+    font-size: 12px;
+    padding: 12px 80px;
+    border: 0;
+    border-radius: 6px;
+    margin-top: 8px;
+    color: #fff;
+    background-color: rgb(91,204,138);
+}
+form .small-para-span {
+    color: red;
+    font-size: 10px;
+}
+form .small-para {
+    font-size: 10px;
+    text-align: center;
+}

@@ -1,0 +1,43 @@
+<!-- - Create a forms according to the layout shown below.
+
+![Building HTML forms Assignment level 1](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/building-html-forms/ex-1.jpg)
+
+- Using CSS resets is necessary.
+
+- Use semantic tags and keep the nesting and indentation proper. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html-Forms-assignment-1</title>
+    <link rel="stylesheet" href="assets/stylesheet/style.css">
+</head>
+<body>
+    <div class="flex container">
+        <div class="form-content">
+            <h1>Learn to Code by Watching Others</h1>
+            <p>See how experianced devlopers solve problems in real-time.
+                watchig scripted tutorials is great,but understangig how 
+                developers think is valuable.  </p>
+            </div>
+        <form action="index.html" method="POST">
+            <fieldset>
+                <legend>
+                    <p><span class="span">Try it free 7 days</span> then S20/mo. thereafter</p>
+                </legend>
+                <div class="log-in-detail">
+                    <input class="form-control" type="name" id="name" name="first-name" placeholder="First Name">
+                    <input class="form-control" type="name" id="name" name="Last name" placeholder="Last Name">
+                    <input class="form-control" type="email" id="email" placeholder="Email Address">
+                    <input class="form-control" type="password" id="password" name="password" placeholder="Password">
+                    <button>CLAIM YOUR FREE TRAIL</button>
+                <p class="small-para">By clicking the button you are agreeing to our <span class="small-para-span">Terms and Services</span></p>
+                </div>
+            </fieldset>  
+        </form>
+    </div>
+</body>
+</html> 
